@@ -38,9 +38,9 @@
         android:layout_marginLeft="-20dp"
         android:gravity="center"
         android:background="@drawable/shape_oval_red"
-        tools:text="0"
+        android:text="0"
         android:textColor="@color/white"
-        android:textSize="15sp"/>
+        android:textSize="12sp"/>
 
 
 </RelativeLayout>
