@@ -55,7 +55,7 @@ public class MyApplication extends Application {
             List<GoodsData> list = GoodsData.getDefaultList();
             for (GoodsData info : list) {
                 Bitmap bitmap = BitmapFactory.decodeResource(getResources(), info.pic);
-                String path = directory+info.id+".png";
+                String path = directory+info.id+".jpg";
                 FileUitls.saveImage(path,bitmap);
                 if(bitmap!=null&&!bitmap.isRecycled()){
                     bitmap.recycle();

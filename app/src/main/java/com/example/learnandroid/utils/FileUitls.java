@@ -12,7 +12,7 @@ public class FileUitls {
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(path);
-            bitmap.compress(Bitmap.CompressFormat.PNG,100,fos);
+            bitmap.compress(Bitmap.CompressFormat.JPEG,100,fos);
         }catch (Exception e){
             e.printStackTrace();
         }finally {
